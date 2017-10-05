@@ -20,15 +20,21 @@
 
 /* TYPE SELECTORS */
 
-.main-nav li {
+.main-nav,
+.about-nav,
+{
+    display: inline;
+       
+}
+li {
     float: left;
     list-style: none;
     padding-left: 10px;
-    display: inline;
-    
-}
 
-.main nav ul {
+}
+.main-nav,
+.about-nav,
+ ul {
     padding-top: 0px;
 }
 

@@ -6,12 +6,6 @@
     background: #F8F8F8;
 }
 
-.main-nav {
-    position: fixed;
-    display: inline;
-    
-    
-}
 
 /* ID SELECTORS */
 
@@ -26,11 +20,15 @@
 
 /* TYPE SELECTORS */
 
-li {
+.main-nav li {
     float: left;
+    list-style: none;
+    padding-left: 10px;
+    display: inline;
+    
 }
 
-ul {
+.main nav ul {
     padding-top: 0px;
 }
 
@@ -52,8 +50,8 @@ h1 {
 
 /* CLEARFIX */
 
-/*.group::after {
-    content: " ";
+.clearfix:after {
+    content: "";
     display: table;
     clear: both;
-  }*/
+  }

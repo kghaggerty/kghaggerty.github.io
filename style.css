@@ -1,9 +1,59 @@
+/* CLASS SELECTORS */
+
 .article {
-    border: 1px solid #ffdead;  
-    color: goldenrod;
-    background: purple;
+    border: 1px solid #FFFFFF;  
+    color: #050504;
+    background: #F8F8F8;
 }
+
+.main-nav {
+    position: fixed;
+    display: inline;
+    
+    
+}
+
+/* ID SELECTORS */
 
 #intro {
     font-size: 3em;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    padding-left: 10px;
 }
+
+
+/* TYPE SELECTORS */
+
+li {
+    float: left;
+}
+
+ul {
+    padding-top: 0px;
+}
+
+body {
+    background: #6F8EB3;
+    padding-top: 100px;
+}
+
+h1 {
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: white;
+    margin: 10px 20px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+/* CLEARFIX */
+
+/*.group::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }*/

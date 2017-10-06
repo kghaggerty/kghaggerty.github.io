@@ -1,57 +1,140 @@
-/* CLASS SELECTORS */
+/* CLASS SELECTORS HOME */
 
-.article {
-    border: 1px solid #FFFFFF;  
-    color: #050504;
-    background: #F8F8F8;
+img {
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    
 }
 
 
-/* ID SELECTORS */
-
-#intro {
-    font-size: 3em;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.4);
-    padding-left: 10px;
+/* ID SELECTORS ALL */
+    
+body {
+        font-family: 'Ubuntu Condensed', serif;
+        font-size: 20px;
 }
 
 
-/* TYPE SELECTORS */
 
-.main-nav,
-.about-nav,
-{
+/* TYPE SELECTORS ALL*/ 
+
+.main-nav
+.about-nav
+.projects-nav
+.contact-nav
+.resume-nav
+.blog-nav{
+
     display: inline;
-       
+    position: fixed;
+    
+
 }
+
 li {
+
     float: left;
     list-style: none;
     padding-left: 10px;
+    margin-top: -10px;
+    
+}
+
+ul {
+    
+    list-style-type; none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
-.main-nav,
-.about-nav,
- ul {
-    padding-top: 0px;
+
+li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+li a:hover {
+    color: rgba(230, 247, 223, 0.79);
+}
+
+
+ nav ul {
+    padding-top: -40px;
+
 }
 
 body {
-    background: #6F8EB3;
-    padding-top: 100px;
+    background: #CEE9C4;
+    
 }
 
-h1 {
-    border: 1px solid #FFFFFF;
+.article {
+    /* border: 1px solid rgba(255, 255, 255, 0.44); */
     border-radius: 10px;
     text-align: center;
     letter-spacing: 2px;
     background-color: white;
     margin: 10px 20px;
-    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    box-shadow:.2px .2px .2px .2px rgba(70, 69, 69, 0.1);
+    background: rgba(230, 247, 223, 0.47);
+    padding-bottom: 125px;
+    padding-top: 10px;
+    
 }
+
+/* ID SELECTORS HOME */
+
+
+
+/* TYPE SELECTORS HOME */ 
+
+.main-nav {
+    margin-top: 2px;
+}
+
+
+
+
+
+/* ID SELECTORS ABOUT */
+
+
+/* TYPE SELECTORS ABOUT */
+
+.bottom-article {
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: white;
+    margin: 10px 20px;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgba(230, 247, 223, 0.79);
+    padding: 10px 30px 50px 30px;
+    font-size: 15px;
+    
+
+}
+
+
+/* CLASS SELECTORS ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* CLEARFIX */

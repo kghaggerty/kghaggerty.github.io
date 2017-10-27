@@ -157,3 +157,22 @@ img {
     display: table;
     clear: both;
   }
+
+
+
+
+  /* PAGINATION */
+
+
+.page-ul {
+    list-style: 
+}
+
+.page-li {
+    display: inline;
+}
+
+#previous {
+    float: left;
+
+}
